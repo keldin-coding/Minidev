@@ -11,6 +11,8 @@ ashtan2 (30, 46)                         SomeoneCool               0
 
 ^ That `ashtan2` is what you're looking for in your `develop plotlist` output.
 
-## Extra
+## Usage
 
 The package checks if you have svof's `ndb` available. If you don't, nothing happens. If you do, it triggers a check for every plot owner and will, once it has data for them, report if the person is a city enemy.
+
+To populate the database the first time, you'll want to do `develop plotlist` and then `more` over and over until you've been through the entire list.
